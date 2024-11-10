@@ -174,7 +174,7 @@ async fn main() {
     app.default_headers = headers! {
 		"Referrer-Policy" => "no-referrer",
 		"X-Content-Type-Options" => "nosniff",
-		"X-Frame-Options" => "DENY",
+		"X-Frame-Options" => "DENY"
 	};
 
     if let Some(expire_time) = hsts {
